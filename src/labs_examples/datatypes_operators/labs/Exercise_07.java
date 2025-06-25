@@ -24,6 +24,13 @@ public class Exercise_07 {
         int days = scanner.nextInt();
 
         // write completed code here
-
+        int seconds = days * 24 * 60 * 60;
+        int minutes = seconds / 60;
+        int hours = minutes / 60;
+        int remainder = minutes % 60;
+        if (remainder == 0) {
+            System.out.printf("%d:%02d:%02d", hours, minutes, seconds);
+        }
+        scanner.close();
     }
 }

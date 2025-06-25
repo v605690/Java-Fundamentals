@@ -13,6 +13,14 @@ public class Exercise_06 {
     public static void main(String[] args) {
 
         // write code here
+        Double radius = 3.14;
+        int height = 5;
+
+        double area = radius * radius * radius * height;
+        double volume = area * radius * radius * height;
+
+        System.out.println("Area is " + area);
+        System.out.println("Volume is " + volume);
 
     }
 }

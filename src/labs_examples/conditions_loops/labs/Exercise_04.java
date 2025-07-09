@@ -8,5 +8,10 @@ package labs_examples.conditions_loops.labs;
  */
 
 public class Exercise_04 {
-
+    public static void main(String[] args) {
+        int num;
+        for (num = 2; num <= 100; num += 2) {
+            System.out.println("Even number " + num);
+        }
+    }
 }

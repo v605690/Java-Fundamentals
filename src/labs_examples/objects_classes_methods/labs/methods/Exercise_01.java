@@ -43,9 +43,10 @@ public class Exercise_01 {
     // 4) Create a static method that takes in a number in years (int years) as an argument
     //    and returns the number of seconds that number in years represents
 
-//    public static int numSeconds(int years) {
-//        return
-//    }
+    public static int numberInYears(int years) {
+        return years;
+    }
+    
     // 5) Create a varargs method that will return the length of the varargs array passed in
     public static int getVarargsLength(String...stuff) {
 

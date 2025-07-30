@@ -23,6 +23,9 @@ public class Person {
         this.name = name;
     }
 
+    public Person(String larry, int i) {
+    }
+
     // methods
     // ...
 
